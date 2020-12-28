@@ -33,11 +33,13 @@ class Particle {
     }
     
     void display() {
+        pushStyle();
         //fill(144, 180, 255, lifespan);
         fill(0, lifespan);
         noStroke();
         //stroke(0, lifespan);
         ellipse(position.x, position.y, d, d);
+        popStyle();
     }
     
     boolean isDead() {
