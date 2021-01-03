@@ -1,5 +1,4 @@
 // discribe a group of particles
-
 class ParticleSystem {
     ArrayList<Particle> particles;
     PVector origin;
